@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-94d74847cf0643396e009db297d2eda4 xs/XS.cpp
-74000458d668c1dfd2972fb55a99ff22 xs/typemap
