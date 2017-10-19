@@ -1,0 +1,90 @@
+Start testing: Oct 17 15:14 Eastern Daylight Time
+----------------------------------------------------------
+1/2 Testing: xs
+1/2 Test: xs
+Command: "C:/wperl64/bin/perl.exe" "C:/wperl64/bin/prove.bat" "-I" "C:/local/Slic3r/local-lib/lib/perl5"
+Directory: C:/local/Slic3r/xs
+"xs" start time: Oct 17 15:14 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+t\01_trianglemesh.t ............. ok
+t\03_point.t .................... ok
+t\04_expolygon.t ................ ok
+t\05_surface.t .................. ok
+t\06_polygon.t .................. ok
+t\07_extrusionpath.t ............ ok
+t\08_extrusionloop.t ............ ok
+t\09_polyline.t ................. ok
+t\10_line.t ..................... ok
+t\11_clipper.t .................. ok
+t\12_extrusionpathcollection.t .. ok
+t\13_polylinecollection.t ....... ok
+t\14_geometry.t ................. ok
+t\15_config.t ................... ok
+t\16_flow.t ..................... ok
+t\17_boundingbox.t .............. ok
+t\18_motionplanner.t ............ ok
+t\19_model.t .................... ok
+t\20_print.t .................... ok
+t\21_gcode.t .................... ok
+t\22_exception.t ................ ok
+All tests successful.
+Files=21, Tests=486,  7 wallclock secs ( 0.14 usr +  0.09 sys =  0.24 CPU)
+Result: PASS
+<end of output>
+Test time =   7.81 sec
+----------------------------------------------------------
+Test Passed.
+"xs" end time: Oct 17 15:14 Eastern Daylight Time
+"xs" time elapsed: 00:00:07
+----------------------------------------------------------
+
+2/2 Testing: integration
+2/2 Test: integration
+Command: "C:/wperl64/bin/perl.exe" "C:/wperl64/bin/prove.bat"
+Directory: C:/local/Slic3r
+"integration" start time: Oct 17 15:14 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+t\angles.t ..................... ok
+t\avoid_crossing_perimeters.t .. ok
+t\bridges.t .................... ok
+t\clean_polylines.t ............ ok
+t\clipper.t .................... ok
+t\collinear.t .................. ok
+t\combineinfill.t .............. ok
+t\config.t ..................... ok
+t\cooling.t .................... ok
+t\custom_gcode.t ............... ok
+t\dynamic.t .................... skipped: variable-width paths are currently disabled
+t\fill.t ....................... ok
+t\flow.t ....................... ok
+t\gaps.t ....................... ok
+t\gcode.t ...................... ok
+t\geometry.t ................... ok
+t\layers.t ..................... ok
+t\loops.t ...................... skipped: temporarily disabled
+t\multi.t ...................... ok
+t\perimeters.t ................. ok
+t\polyclip.t ................... ok
+t\print.t ...................... ok
+t\retraction.t ................. ok
+t\shells.t ..................... ok
+t\skirt_brim.t ................. ok
+t\slice.t ...................... skipped: temporarily disabled
+t\support.t .................... skipped: temporarily disabled
+t\svg.t ........................ ok
+t\thin.t ....................... ok
+t\threads.t .................... ok
+All tests successful.
+Files=30, Tests=387, 43 wallclock secs ( 0.30 usr +  0.31 sys =  0.61 CPU)
+Result: PASS
+<end of output>
+Test time =  43.68 sec
+----------------------------------------------------------
+Test Passed.
+"integration" end time: Oct 17 15:15 Eastern Daylight Time
+"integration" time elapsed: 00:00:43
+----------------------------------------------------------
+
+End testing: Oct 17 15:15 Eastern Daylight Time

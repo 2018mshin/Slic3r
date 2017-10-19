@@ -1,4 +1,3 @@
-Build
 Build.bat
 MYMETA.json
 MYMETA.yml
@@ -10,4 +9,3 @@ MANIFEST.bak
 xs/MANIFEST.bak
 xs/assertlib*
 .init_bundle.ini
-local-lib
